@@ -11,4 +11,13 @@
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Datebase\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+  </ItemGroup>
+
 </Project>

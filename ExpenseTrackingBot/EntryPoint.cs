@@ -1,12 +1,14 @@
-﻿
-
+﻿using ExpenseTrackingBot.TelegramBot;
 
 internal class EntryPoint
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Bot started");
-        Console.ReadLine();
+        TelegramBot bot = new TelegramBot();
+        bot.Start();
     }
+    
+
+
 }
 
